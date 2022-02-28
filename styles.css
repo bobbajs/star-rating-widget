@@ -1,0 +1,93 @@
+:root {
+    --border: solid 1px #d1d1d1;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+    padding: 10px;
+}
+
+.rating {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/* submit button */
+.action-area {
+    text-align: right;
+}
+
+.submit {
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+    margin-top: 10px;
+    background: rosybrown;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.submit:hover {
+    font-weight: bold;
+}
+
+.submit:disabled {
+    cursor: not-allowed;
+    font-weight: normal;
+    opacity: 0.7;
+    background-color: rosybrown;
+}
+
+/* review input */
+.review-input {
+    background: #ececec;
+    border: none;
+    border-bottom: solid 3px rosybrown;
+    min-width: calc(100% - 20px);
+    min-height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* stars */
+.star {
+    color: #ececec;
+}
+
+.selected {
+    color: rosybrown;
+}
+
+.hovered-default {
+    color: #ececec;
+}
+
+.hovered {
+    color: slategray;
+}
+
+/* list of reviews */
+.reviews {
+    margin-top: 15px;
+}
+
+.reviews .stars {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rosybrown;
+}
+
+.reviews .review-details {
+    font-size: 16px;
+}
+
+.review-item {
+    border: solid 1px rosybrown;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+

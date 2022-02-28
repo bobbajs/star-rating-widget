@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Star rating</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <h1>Thank you for visiting my github today. Leave a review!</h1>
+        <div class="review-input-widget">
+            <div class="rating">
+                <i class="fas fa-star star" data-star-index="1"></i>
+                <i class="fas fa-star star" data-star-index="2"></i>
+                <i class="fas fa-star star" data-star-index="3"></i>
+                <i class="fas fa-star star" data-star-index="4"></i>
+                <i class="fas fa-star star" data-star-index="5"></i>
+            </div>
+
+            <textarea class="review-input" id="reviewInput" placeholder="Share details of your own experience with us"></textarea>
+
+            <div class="action-area">
+                <button class="submit" id="submitButton">Submit</button>
+            </div>
+
+        </div>
+
+        <div class="reviews" id="reviewContainer"></div>
+
+
+        <script src="./scripts.js"></script>
+    </body>
+</html>
